@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn btree.wsgi --log-file=-
+web: gunicorn btre.wsgi --log-file=-
